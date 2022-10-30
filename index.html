@@ -13,7 +13,7 @@
   >
 </head>
 <body class="page">
-  <div class="header">
+  <header class="header">
     <img class="header__img" src="./eisenhower-matrix.jpg">
     <a 
         class="header__link" 
@@ -21,20 +21,20 @@
     >
       Want more details?
     </a>
-  </div>
-  <div class="main">
-    <p id="main-header">
+  </header>
+  <main class="main">
+    <div id="main-header">
       <label class="title-3 main-header__label" for="new-task">Add Item</label>
       <div class="main__task">
         <input id="new-task"class="input-text task" type="text">
         <button class="button">Add</button>
       </div>
-    </p>
+    </div>
     <h3 class="title-3">Todo</h3>
     <ul class="list__main" id="incomplete-tasks">
       <li class="main-list__item">
         <input class="list-item__checkbox" type="checkbox">
-        <label class="list-item__label task">Pay Bills</label>
+        <p class="list-item__label task">Pay Bills</p>
         <input type="text" class="input-text task">
         <button class="button edit">Edit</button>
         <button class="button delete">
@@ -43,7 +43,7 @@
       </li>
       <li class="main-list__item edit-mode">
         <input class="list-item__checkbox" type="checkbox">
-        <label class="list-item__label task">Go Shopping</label>
+        <p class="list-item__label task">Go Shopping</p>
         <input type="text" value="Go Shopping" class="input-text task">
         <button class="button edit">Save</button>
         <button class="button delete">
@@ -55,7 +55,7 @@
     <ul class="list__main list-completed" id="completed-tasks">
       <li class="main-list__item">
         <input class="list-item__checkbox" type="checkbox" checked>
-        <label class="list-item__label task list-completed__label">See the Doctor</label>
+        <p class="list-item__label task list-completed__label">See the Doctor</p>
         <input type="text" class="input-text task">
         <button class="button edit">Edit</button>
         <button class="button delete">
@@ -63,7 +63,7 @@
         </button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
