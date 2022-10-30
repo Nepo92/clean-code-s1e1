@@ -23,11 +23,11 @@
     </a>
   </header>
   <main class="main">
-    <div id="main-header">
+    <div class="main__header" id="main-header">
       <label class="title-3 main-header__label" for="new-task">Add Item</label>
       <div class="main__task">
-        <input id="new-task"class="input-text task" type="text">
-        <button class="button">Add</button>
+        <input id="new-task"class="main-task__text input-text task" type="text">
+        <button class="button main-task__btn">Add</button>
       </div>
     </div>
     <h3 class="title-3">Todo</h3>
@@ -35,18 +35,18 @@
       <li class="main-list__item">
         <input class="list-item__checkbox" type="checkbox">
         <p class="list-item__label task">Pay Bills</p>
-        <input type="text" class="input-text task">
-        <button class="button edit">Edit</button>
-        <button class="button delete">
+        <input type="text" class="list-item__text input-text task">
+        <button class="list-item__btn button edit">Edit</button>
+        <button class="list-item__btn button delete">
           <img class="delete__img" src="./remove.svg" alt="remove icon">
         </button>
       </li>
       <li class="main-list__item edit-mode">
         <input class="list-item__checkbox" type="checkbox">
         <p class="list-item__label task">Go Shopping</p>
-        <input type="text" value="Go Shopping" class="input-text task">
-        <button class="button edit">Save</button>
-        <button class="button delete">
+        <input type="text" value="Go Shopping" class="list-item__text input-text task">
+        <button class="list-item__btn button edit">Save</button>
+        <button class="list-item__btn button delete">
           <img class="delete__img" src="./remove.svg" alt="remove icon">
         </button>
       </li>
@@ -56,9 +56,9 @@
       <li class="main-list__item">
         <input class="list-item__checkbox" type="checkbox" checked>
         <p class="list-item__label task list-completed__label">See the Doctor</p>
-        <input type="text" class="input-text task">
-        <button class="button edit">Edit</button>
-        <button class="button delete">
+        <input type="text" class="list-item__text input-text task">
+        <button class="list-item__btn button edit">Edit</button>
+        <button class="list-item__btn button delete">
           <img class="delete__img" src="./remove.svg" alt="remove icon">
         </button>
       </li>
